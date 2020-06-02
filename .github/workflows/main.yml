@@ -30,6 +30,6 @@ jobs:
       run: nmp install -g surge
       
     - name: Run Surge
-      run: surge ./ bootcamp2020_demo.surge.sh --token ${{secret.SURGE_TOKEN}}
+      run: surge ./ bootcamp2020_demo.surge.sh --token ${{secrets.SURGE_TOKEN}}
       
      
